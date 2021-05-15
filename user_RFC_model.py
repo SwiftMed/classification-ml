@@ -59,7 +59,7 @@ for i in range(len(pred[:5])):
         pred[i] = "See Family Doctor"
     elif pred[i][:3] == "Pep" or pred[i][:3] == "AID" or pred[i][:3] == "Par"\
             or pred[i][:3] == "Mal" or pred[i][:3] == "Den" or pred[i][:3] == "Hea" or \
-            pred[i][:3] == "(ve" or pred[i][:3] == "Pso" or pred[i][:3] == "Uri" or "Cer":
+            pred[i][:3] == "(ve" or pred[i][:3] == "Pso" or pred[i][:3] == "Uri" or pred[i][:3] == "Cer":
         pred[i] = "URGENT! Go to to Emergency Room"
     elif pred[i][:3] == "Chr" or pred[i][:3] == "Gas" or pred[i][:3] == "Bro" or pred[i][:3] == "Hyp"\
             or pred[i][:3] == "Ser" or pred[i][:3] == "Jau" or pred[i][:3] == "Chic" or pred[i][:3] == "Typ":
